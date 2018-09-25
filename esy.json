@@ -1,0 +1,19 @@
+{
+  "name": "Example-Reason-Codemod",
+  "version": "0.0.0",
+  "esy": {
+    "build": "dune build -p #{self.name}"
+  },
+  "dependencies": {
+    "@opam/dune": "*",
+    "@opam/ppx_tools_versioned": "*",
+    "@jaredly/reason-language-server": "1.0.0-alpha.5",
+    "ocaml": "~4.6.0"
+  },
+  "resolutions": {
+    "@esy-ocaml/esy-installer": "0.0.1"
+  },
+  "devDependencies": {
+    "ocaml": "~4.6.0"
+  }
+}
